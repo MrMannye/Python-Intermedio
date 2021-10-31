@@ -3,10 +3,9 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 
 
 - [Curso de Python](#curso-de-python)
-- [Convenciones generales](#temas-generales)
+- [Temas generales](#temas-generales)
 - [Python](#python)
     - [Estructura de un proyecto en python](#estructura-de-un-proyecto-en-python)
-      - [Templates](#templates)
       - [Convenciones](#convenciones)
   - [Iniciar un nuevo proyecto](#iniciar-un-nuevo-proyecto)
 
@@ -27,13 +26,6 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 * Ver [ejemplo completo](http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html#example-google) de un módulo en python según la guía de estilo de Google.
 
 ### Estructura de un proyecto en python
-
-#### Templates
-
-* [Ejemplo 1: con tests junto a sus módulos](python/Project-Example-1)
-* [Ejemplo 2: con tests en una carpeta aparte](python/Project-Example-2)
-* [Ejemplo 3: con scrapy](https://github.com/ssipyga/contratos_argentina)
-* [Ejemplo 4: con django](https://github.com/chadad/propiedades)
 
 #### Convenciones
 
@@ -58,11 +50,6 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 ## Iniciar un nuevo proyecto
 
 Algunos aspectos de la estructuración de un repositorio pueden cambiar dependiendo del stack -más adelante se proveen templates para cada caso- pero todos deben respetar las siguientes indicaciones desde el momento en que se inicia un nuevo proyecto:
-
-* **Nuevo canal en Slack**: Cada proyecto abre un nuevo canal en Slack, donde se comunican los miembros del equipo que participan del proyecto y se puede seguir el estado del mismo. El canal se integrará con:
-    - *Travis CI*: para controlar que el proyecto se compila sin errores.
-    - *Coveralls*: para controlar el % de cobertura de los tests del proyecto.
-    - *Github*: para seguir los commits del equipo.
 
 * **README**: Donde se listan:
     - El *objetivo* del proyecto
